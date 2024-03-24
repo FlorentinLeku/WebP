@@ -192,3 +192,231 @@ body {
     padding-left: 50px;
     max-width: 700px;
 }
+
+.footer {
+    display: flex;
+    flex-shrink: 0;
+    background-color:#263238;
+    color: white;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    min-height: 55vh;
+    width: 80%;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    padding: 50px;
+    background-color: #eceff1;
+    -webkit-box-shadow: 0px 0px 40px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 40px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 40px 5px rgba(0,0,0,0.75);
+}
+
+#aboutphoto{
+    width: 100%;
+    min-width: 20vh;
+    max-width: 40vh;
+    border-radius: 40px;
+    margin: auto;
+}
+
+.forma {
+    margin: auto;
+    width: 50%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 5px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #00897b;
+    color: white;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 5px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #00897b;
+    color: white;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 12px 5px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #00897b;
+    color: white;
+}
+
+
+
+#city {
+   width: 100%;
+    height: 35px;
+    padding: 0px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #00897b;
+    color: white;
+    -webkit-appearance: none;
+}
+
+textarea {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    width:100%;
+    height: 20vh;
+    background-color: #00897b;
+    padding: 5px 5px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    color: white;
+    resize: none;
+}
+
+.section6{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #eceff1;
+}
+.section6 h1{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.article {
+    padding: 75px 0px 100px 0px;
+    width: 350px;
+    color: black;
+    height: auto;
+}
+.blog {
+    display: flex;
+    align-items:baseline;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: black;
+}
+
+
+.text {
+  color: white;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+
+}
+
+.pika {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .pika:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.blogimage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.addarticle{
+  margin: auto;
+  width: 80%;
+}
+
+.addarticleButtons {
+  display: flex;
+  justify-content:space-between;
+}
