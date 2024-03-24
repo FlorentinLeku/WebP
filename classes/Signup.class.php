@@ -12,7 +12,7 @@ class Signup {
   private $sqlCheck;
   private $queryCheck;
   private $userCheck;
-  private $userError;
+  public $userError;
 
   public function __construct($name, $email, $password){
     $this->name = $name;
