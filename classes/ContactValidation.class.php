@@ -7,7 +7,7 @@ class ContactValidation {
 
   private $genderErr;
   private $entertextErr;
-  private $showError;
+  public $showError;
   private $nameCheck;
   private $emailCheck;
   private $passwordCheck;
